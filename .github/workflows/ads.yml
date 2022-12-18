@@ -38,4 +38,4 @@ jobs:
           name: Rule Ads
           # A file, directory or wildcard pattern that describes what to upload
           path: 
-          /rule_basicads.yaml
+          /root/rule_basicads.yaml
