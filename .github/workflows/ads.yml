@@ -30,7 +30,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
           sed -i "s/- "+.googlesyndication.com"/ /g" rule_basicads.yaml
-          dir
+          ls
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.1
