@@ -29,5 +29,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           wget https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml /home
-          cd /home
           sed -i "s/- "+.googlesyndication.com"/ /g" rule_basicads.yaml
