@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run:
+        run: |
         wget https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
         sed -i "- "+.googlesyndication.com" rule_basicads.yaml
 
